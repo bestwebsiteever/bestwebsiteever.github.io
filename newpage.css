@@ -1,0 +1,38 @@
+#center {
+margin: auto;
+width: 50%;
+padding: 10px;
+text-align: center;
+}
+
+body {
+background-color:wheat;
+
+}
+
+.title {
+color:darkviolet;
+text-align:center;
+font-weight:100;
+font-size:50px;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-style:italic;
+font-stretch:expanded;
+text-decoration:underline;
+line-height: 100px
+}
+
+.picture {
+display:block;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+.text {
+color:darkorchid;
+text-align: center;
+font-size:30px;
+font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
