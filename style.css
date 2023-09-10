@@ -3,7 +3,7 @@
 }
 
 header{
-    background-color:darkorchid;
+    background-image: linear-gradient(darkorchid, purple);
     color:indigo;
     padding: 30px;
     text-align: center;
@@ -40,7 +40,7 @@ section:after{
 
 
 footer {
-    background-color:darkorchid;
+    background-image:linear-gradient(darkorchid, purple);
     padding: 10px;
     text-align: center;
     color:beige;
