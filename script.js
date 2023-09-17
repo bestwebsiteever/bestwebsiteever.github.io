@@ -3,8 +3,19 @@ const link2= document.getElementById("topic2");
 const link3= document.getElementById("topic3");
 const link4= document.getElementById("topic4");
 const link5= document.getElementById("topic5");
-
 const info= document.getElementById("info");
+const title= document.getElementById("color")
+const colors = ["violet", "white", "black"];
+
+let currentColor = 0
+
+function changeColor() {
+    title.style.color = colors[currentColor];
+    currentColor = (currentColor + 1) % colors.length;
+
+};
+
+setInterval(changeColor, 1000);
 
 AOS.init();
 
