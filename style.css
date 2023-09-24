@@ -3,6 +3,24 @@
     src: url(RetroVintage-Regular.otf);
 }
 
+.navbar {
+    width: 100px;
+    background-color: darkorchid;
+    padding: 20px;
+    font-family: 'custom';
+    font-size: 30px;
+}
+
+nav ul {
+   list-style-type: none;
+   padding: 0;
+}
+
+.container-fluid {
+   width: 100%;
+   background-color: beige;
+}
+
 *{
     box-sizing: border-box; 
 }
