@@ -23,7 +23,7 @@ function message() {
  if(response == "yes" || response == "Yes") {
     alert("Same, you have great taste!")
  } else {
-    alert("I hate you, leave now!")
+    alert("I hate you, leave now!!!")
  }
 }
 
