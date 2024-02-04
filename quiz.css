@@ -1,0 +1,32 @@
+body {
+   font-family: Arial, sans-serif;
+   text-align: center;
+   background-color: beige;
+}
+
+#quiz-container {
+  width: 50%;
+  margin: 0 auto;
+  background-color:beige;
+  padding: 20px;
+}
+
+h1 {
+   color:aquamarine;
+}
+
+button {
+  background-color:aqua;
+  color:azure;
+  padding: 10px 20px;
+  margin: 20px 0;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+label {
+   display: block;
+   margin: 5px;
+}
