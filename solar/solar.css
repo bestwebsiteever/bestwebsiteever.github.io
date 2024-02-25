@@ -1,0 +1,23 @@
+body,html {
+   margin: 0;
+   padding: 0;
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   align-items:center;
+   background-color:black;
+
+}
+
+#solar-system {
+   width: 75%;
+   height: 100%;
+   display: flex;
+
+}
+
+#solarCanvas {
+   border: 1px solid white;
+   flex-grow: 1;
+}
